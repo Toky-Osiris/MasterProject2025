@@ -39,33 +39,5 @@ AutomatedSprayer is an integrated system for automated plant (pea) spraying usin
 - Azure IoT Hub
 - ESP32 and Raspberry Pi devices
 
-## How to push your code to GitHub
-
-1. **Initialize your repository (if not already done):**
-    ```
-    git init
-    ```
-
-2. **Add all files:**
-    ```
-    git add .
-    ```
-
-3. **Commit your changes:**
-    ```
-    git commit -m "Initial commit"
-    ```
-
-4. **Connect to your remote repository:**
-    ```
-    git remote add origin https://github.com/<your-username>/<your-repo-name>.git
-    ```
-
-5. **Push your code:**
-    ```
-    git push -u origin main
-    ```
-    *(If your branch is called `master`, use `master` instead of `main`)*
-
 ## License
 MIT License
