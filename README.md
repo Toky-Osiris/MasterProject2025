@@ -11,7 +11,8 @@ AutomatedSprayer is an integrated system for automated plant (pea) spraying usin
 ## Setup & Deployment
 
 ### 1. Azure ML Endpoints
-- Download the models from this link: 
+- Download the models from this link: https://drive.google.com/drive/folders/1aGLwvYJoCwPP1JY0cAsECetwEQiNlxzF?usp=drive_link
+ 
 - Register segmentation and classification models in Azure ML.
 - Deploy endpoints using `segmentation_score.py` (with `segmentation_module.py`) and `classification_score.py`.
 - Create an environment using `environment.yaml` for both endpoints(You can edit existing environments with the requirements in that file if errors appear)
