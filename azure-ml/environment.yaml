@@ -1,0 +1,13 @@
+name: yolov11-env
+channels:
+  - defaults
+dependencies:
+  - python=3.11.7
+  - pip
+  - pip:
+      - ultralytics
+      - opencv-python
+      - pillow
+      - torch
+      - torchvision
+      - azureml-defaults
